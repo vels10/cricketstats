@@ -25,6 +25,12 @@ cricindex.news().then(obj => {
     console.log(err)
 })
 
+cricindex.liveMatch().then(obj => {
+    console.log("Live", obj)
+}).catch(err => {
+    console.log(err)
+})
+
 cricindex.resultsByDate('2021-11-17').then(obj => {
     console.log("Results by Date", obj)
 }).catch(err => {

@@ -31,4 +31,6 @@ import cricindex from 'cricketstats';
 
 * `cricindex.fixturesByDate('2021-11-17')` is the function to get the match details by date and it also includes domestic cricket and date in the format **(yyyy-mm-dd)**.
 
-* `criciindex.resultsByDate('2021-11-17')` is the function to get all the match result on a particular date, example mentioned here on date **17th November 2021**.
+* `cricindex.resultsByDate('2021-11-17')` is the function to get all the match result on a particular date, example mentioned here on date **17th November 2021**.
+
+* `cricindex.liveMatch()` is the function to get the live match details, but it does not provide live score of the match by ball by ball.

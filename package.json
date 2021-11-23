@@ -1,6 +1,6 @@
 {
     "name": "cricketstats",
-    "version": "1.0.2",
+    "version": "1.0.4",
     "description": "NPM Package for Cricket Details",
     "main": "index.js",
     "scripts": {
@@ -17,6 +17,6 @@
         "url": "https://github.com/vels10/cricketstats.git"
     },
     "keywords": [
-        "Cricket", "IPL", "T20"
+        "Cricket", "Sports"
     ]
 }
